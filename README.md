@@ -34,7 +34,7 @@
 # Calling the function to get the user's choice                                                       - Line 37
 
 
-#Friday Project 3
+# Friday Project 3
 # Welcome statement for Friday Project 3                                                             - Line 5
 # Dictionary of quiz questions and answers                                                           - Line 8
 # Counter to keep track of correct answers                                                           - Line 17
