@@ -24,6 +24,20 @@ story = f"I’ve had a very {adjective} day.\n\n" \
 print("\nHere's your Mad Libs story:")
 print(story)
 
+# Notes:
+# Welcome statement explaining how the program works
+# Prompt the user to provide words for the Mad Libs story
+# Prompt the user to input a large object and store it in a variable
+# Prompt the user to input plural large objects and store it in a variable
+# Prompt the user to input an adjective and store it in a variable
+# Prompt the user to input a body part and store it in a variable
+# Prompt the user to input a restaurant and store it in a variable
+# Prompt the user to input a food and store it in a variable
+# Prompt the user to input another food and store it in a variable
+# Generating the Mad Libs story using the user-provided inputs
+# Construct the story by inserting the user-provided inputs into the story template
+# Print the generated Mad Libs story for the user to enjoy
+
 # Friday Project 2
 
 import random
@@ -62,6 +76,20 @@ def get_powerball_choice():
 # Calling the function to get the user's choice
 get_powerball_choice()
 
+# Notes:
+# Welcome statement for Friday Project 2
+# Import the random module to generate random numbers
+# Generating random numbers for Powerball: white balls
+# Generating a random integer between 1 and 69 for the first white ball
+# Generating a random integer between 1 and 69 for the second white ball
+# Generating a random integer between 1 and 69 for the third white ball
+# Generating a random integer between 1 and 69 for the fourth white ball
+# Generating a random integer between 1 and 69 for the fifth white ball
+# Generating random numbers for Powerball: red ball
+# Generating a random integer between 1 and 26 for the red ball
+# Constructing the Powerball numbers string with appropriate spacing
+# Printing the Powerball numbers string
+
 # Friday Project 3
 
 # Welcome statement
@@ -93,3 +121,14 @@ for question, answer in quiz_questions.items():
 
 # Print the total number of correct answers
 print(f"\nYou got {correct_answers} out of {len(quiz_questions)} questions correct.")
+
+# Notes:
+# Welcome statement for Friday Project 3
+# Dictionary of quiz questions and answers
+# Counter to keep track of correct answers
+# Loop through each question in the dictionary
+# Get user's input for the current question and convert it to lowercase
+# Check if the user's answer matches the answer in the dictionary
+# If the user's answer matches the answer in the dictionary, print 'Correct' and increment the correct_answers counter
+# If the user's answer does not match the answer in the dictionary, print 'Incorrect' along with the correct answer
+# Print the total number of correct answers
