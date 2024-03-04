@@ -1,0 +1,1 @@
+This is a collection of Friday projects for Business Applications Development. We used Python programming language in Microsoft Visual Studio to create programs that performed a variety of different functions. 
